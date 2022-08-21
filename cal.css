@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    font-family: 'Exo', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color : skyblue;
+    background-image: url(cali.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+h1{
+    font-size: 3rem;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.title {
+    background: lightgrey;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 12px;
+    height: 420px;
+    width: 500px;
+    margin-top: 3%;
+    margin-left: 20%;
+    background-color: #faaff6;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    background-color: #dcdbe1;
+    font-size: 1.5rem;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 12px;
+    width: 98%;
+    height: 65%;
+}
+#btn {
+    background-color: #fb0066;
+}
+input[type=button] {
+    background-color: rgba(43, 33, 87, 0.87);
+    font-size: 1.7rem;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+input:active[type=button] {
+    background: #e5e5e5;
+    color: black;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
